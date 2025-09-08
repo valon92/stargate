@@ -2,7 +2,12 @@ name = "stargate-ci"
 compatibility_date = "2024-01-01"
 
 # Cloudflare Pages configuration
-pages_build_output_dir = "dist"
+pages_build_output_dir = "frontend/dist"
+
+# Build configuration
+[build]
+command = "npm run build"
+cwd = "."
 
 # Environment variables
 [vars]
