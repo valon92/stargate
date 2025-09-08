@@ -15,6 +15,13 @@
             We are dedicated to advancing the understanding and application of cutting-edge technologies 
             that are shaping our digital future.
           </p>
+          <div class="disclaimer">
+            <p class="disclaimer-text">
+              <strong>Educational Platform:</strong> This website serves as an educational resource 
+              providing publicly available information about technology and innovation. 
+              We are not officially affiliated with the companies mentioned.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -30,11 +37,12 @@
             <p class="mission-description">
               At Stargate, we believe that technology should be accessible, understandable, and beneficial to everyone. 
               Our mission is to bridge the gap between complex technological innovations and practical applications 
-              that can transform businesses and improve lives.
+              through educational content and resources.
             </p>
             <p class="mission-description">
-              We are committed to providing educational resources, innovative solutions, and expert guidance 
-              in the fields of Artificial Intelligence, Cloud Computing, Big Data Analytics, and Advanced Computing.
+              We are committed to providing educational resources, insights, and analysis 
+              in the fields of Artificial Intelligence, Cloud Computing, Big Data Analytics, and Advanced Computing, 
+              based on publicly available information and research.
             </p>
           </div>
           <div class="mission-visual">
@@ -628,6 +636,26 @@
   gap: 16px;
   justify-content: center;
   align-items: center;
+}
+
+/* Disclaimer Styles */
+.disclaimer {
+  margin-top: 32px;
+  padding: 16px;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 8px;
+}
+
+.disclaimer-text {
+  color: #d1d5db;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.disclaimer-text strong {
+  color: #7c3aed;
 }
 
 /* Responsive Design */

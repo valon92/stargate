@@ -11,8 +11,8 @@
             <span class="logo-name">Stargate.ci</span>
           </div>
           <p class="footer-description">
-            Innovative digital solutions to help your business grow and succeed in today's competitive market. 
-            Your gateway to modern technology and digital transformation.
+            Educational platform providing insights into modern technology and digital transformation. 
+            Your gateway to understanding AI, cloud computing, and advanced technologies.
           </p>
           <div class="social-links">
             <a href="#" class="social-link">
@@ -96,6 +96,13 @@
             <a href="#" class="footer-bottom-link">Terms of Service</a>
             <a href="#" class="footer-bottom-link">Cookie Policy</a>
           </div>
+        </div>
+        <div class="disclaimer-footer">
+          <p class="disclaimer-text">
+            <strong>Disclaimer:</strong> This is an educational platform providing publicly available information 
+            about technology and innovation. We are not officially affiliated with the companies mentioned. 
+            All information is based on publicly available sources and is for educational purposes only.
+          </p>
         </div>
       </div>
     </div>
@@ -256,6 +263,26 @@
 }
 
 .footer-bottom-link:hover {
+  color: #7c3aed;
+}
+
+.disclaimer-footer {
+  margin-top: 24px;
+  padding: 16px;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 8px;
+}
+
+.disclaimer-footer .disclaimer-text {
+  color: #d1d5db;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.disclaimer-footer .disclaimer-text strong {
   color: #7c3aed;
 }
 

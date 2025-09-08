@@ -15,6 +15,12 @@
             We work with industry leaders and technology pioneers to deliver 
             cutting-edge solutions and drive digital transformation across various sectors.
           </p>
+          <div class="disclaimer">
+            <p class="disclaimer-text">
+              <strong>Disclaimer:</strong> This is an educational platform providing publicly available information 
+              about technology partnerships. We are not officially affiliated with the mentioned companies.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -43,9 +49,9 @@
             <h3 class="partner-name">OpenAI</h3>
             <p class="partner-category">AI Research & Development</p>
             <p class="partner-description">
-              Leading the development of artificial general intelligence through 
-              advanced research in machine learning, natural language processing, 
-              and AI safety.
+              Based on publicly available information, OpenAI is known for advancing 
+              artificial general intelligence through research in machine learning, 
+              natural language processing, and AI safety.
             </p>
             <div class="partner-focus">
               <span class="focus-tag">GPT Technology</span>
@@ -65,8 +71,9 @@
             <h3 class="partner-name">SoftBank</h3>
             <p class="partner-category">Investment & Technology</p>
             <p class="partner-description">
-              Global technology investment firm focused on AI, robotics, 
-              and next-generation computing technologies that will shape the future.
+              According to public information, SoftBank is a global technology 
+              investment firm with focus on AI, robotics, and next-generation 
+              computing technologies.
             </p>
             <div class="partner-focus">
               <span class="focus-tag">Vision Fund</span>
@@ -86,8 +93,9 @@
             <h3 class="partner-name">ARM</h3>
             <p class="partner-category">Semiconductor Design</p>
             <p class="partner-description">
-              Leading provider of processor technology, designing the chips that 
-              power billions of devices worldwide, from smartphones to data centers.
+              Publicly known as a leading provider of processor technology, 
+              ARM designs chips that power billions of devices worldwide, 
+              from smartphones to data centers.
             </p>
             <div class="partner-focus">
               <span class="focus-tag">Processors</span>
@@ -107,8 +115,9 @@
             <h3 class="partner-name">Crystal Intelligence</h3>
             <p class="partner-category">Advanced Analytics</p>
             <p class="partner-description">
-              Specialized in crystal-based computing and advanced data processing 
-              technologies that enable breakthrough performance in complex calculations.
+              Based on available public information, Crystal Intelligence focuses 
+              on advanced computing and data processing technologies for 
+              high-performance applications.
             </p>
             <div class="partner-focus">
               <span class="focus-tag">Crystal Computing</span>
@@ -599,6 +608,26 @@
   gap: 16px;
   justify-content: center;
   align-items: center;
+}
+
+/* Disclaimer Styles */
+.disclaimer {
+  margin-top: 32px;
+  padding: 16px;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 8px;
+}
+
+.disclaimer-text {
+  color: #d1d5db;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.disclaimer-text strong {
+  color: #7c3aed;
 }
 
 /* Responsive Design */
