@@ -1,0 +1,17 @@
+name = "stargate-ci"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "stargate-ci"
+
+# Build configuration for Cloudflare Pages
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+
+# Environment variables
+[vars]
+VITE_API_URL = "https://api.stargate.ci"
+VITE_APP_NAME = "Stargate.ci"
+VITE_CONTACT_EMAIL = "contact@stargate.ci"
