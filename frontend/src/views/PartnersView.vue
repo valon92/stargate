@@ -112,16 +112,16 @@
                 </svg>
               </div>
             </div>
-            <h3 class="partner-name">Crystal Intelligence</h3>
-            <p class="partner-category">Advanced Analytics</p>
+            <h3 class="partner-name">Cristal Intelligence</h3>
+            <p class="partner-category">AI Research & Development</p>
             <p class="partner-description">
-              Based on available public information, Crystal Intelligence focuses 
-              on advanced computing and data processing technologies for 
-              high-performance applications.
+              Based on available public information, Cristal Intelligence is an AI company 
+              backed by SoftBank and OpenAI investments, focusing on advanced computing 
+              and data processing technologies for high-performance AI applications.
             </p>
             <div class="partner-focus">
-              <span class="focus-tag">Crystal Computing</span>
-              <span class="focus-tag">Analytics</span>
+              <span class="focus-tag">Cristal Computing</span>
+              <span class="focus-tag">AI Research</span>
               <span class="focus-tag">Performance</span>
             </div>
           </div>

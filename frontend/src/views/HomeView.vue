@@ -19,11 +19,11 @@
             <span class="domain-suffix">.ci</span>
           </h1>
           <p class="hero-subtitle">
-            Powered by Crystal Intelligence
+            Powered by Cristal Intelligence
           </p>
           <p class="hero-description">
             The Stargate project represents a revolutionary collaboration between cutting-edge AI technology and advanced computing infrastructure. 
-            Through Crystal Intelligence's innovative approach, we're building the gateway to the future of artificial intelligence and cloud computing.
+            Through Cristal Intelligence's innovative approach, backed by SoftBank and OpenAI investments, we're building the gateway to the future of artificial intelligence and cloud computing.
           </p>
           <div class="project-highlight">
             <div class="highlight-card">
@@ -31,8 +31,8 @@
               <p>Advanced AI infrastructure and cloud computing platform</p>
             </div>
             <div class="highlight-card">
-              <h3>Crystal Intelligence</h3>
-              <p>Pioneering AI research and development company</p>
+              <h3>Cristal Intelligence</h3>
+              <p>AI company backed by SoftBank and OpenAI investments</p>
             </div>
           </div>
           <div class="hero-buttons">
