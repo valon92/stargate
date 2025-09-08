@@ -1,112 +1,119 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative py-20 bg-gradient-to-br from-stargate-dark via-gray-900 to-stargate-dark">
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-5xl md:text-6xl font-bold mb-6">
+    <section class="hero-section">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
             <span class="gradient-text">Our Partners</span>
           </h1>
-          <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-            Collaborating with Industry Leaders
+          <p class="hero-subtitle">
+            Strategic Collaborations Driving Innovation
           </p>
-          <p class="text-lg text-gray-400 max-w-3xl mx-auto">
-            We work with leading technology companies to bring you the most innovative 
-            and cutting-edge solutions in AI, Cloud Computing, and Big Data Analytics.
+          <p class="hero-description">
+            We work with industry leaders and technology pioneers to deliver 
+            cutting-edge solutions and drive digital transformation across various sectors.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Partners Section -->
-    <section class="py-20">
-      <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <!-- OpenAI -->
-          <div class="card">
-            <div class="flex items-start space-x-6">
-              <div class="w-20 h-20 bg-gradient-to-r from-green-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <!-- Partners Overview -->
+    <section class="partners-overview">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="gradient-text">Strategic Partnerships</span>
+          </h2>
+          <p class="section-description">
+            Collaborating with global leaders to shape the future of technology
+          </p>
+        </div>
+
+        <div class="partners-grid">
+          <div class="partner-card featured">
+            <div class="partner-logo">
+              <div class="logo-placeholder">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                 </svg>
               </div>
-              <div>
-                <h3 class="text-2xl font-semibold mb-3">OpenAI</h3>
-                <p class="text-gray-400 mb-4">
-                  Leading the development of artificial general intelligence (AGI) that benefits all of humanity. 
-                  OpenAI's research and products are at the forefront of AI innovation.
-                </p>
-                <div class="text-sm text-gray-500">
-                  <p><strong>Focus Areas:</strong> Large Language Models, AI Safety, Research</p>
-                  <p><strong>Key Products:</strong> GPT, DALL-E, ChatGPT</p>
-                </div>
-              </div>
+            </div>
+            <h3 class="partner-name">OpenAI</h3>
+            <p class="partner-category">AI Research & Development</p>
+            <p class="partner-description">
+              Leading the development of artificial general intelligence through 
+              advanced research in machine learning, natural language processing, 
+              and AI safety.
+            </p>
+            <div class="partner-focus">
+              <span class="focus-tag">GPT Technology</span>
+              <span class="focus-tag">AI Safety</span>
+              <span class="focus-tag">Research</span>
             </div>
           </div>
 
-          <!-- SoftBank -->
-          <div class="card">
-            <div class="flex items-start space-x-6">
-              <div class="w-20 h-20 bg-gradient-to-r from-orange-500 to-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+          <div class="partner-card">
+            <div class="partner-logo">
+              <div class="logo-placeholder">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                 </svg>
               </div>
-              <div>
-                <h3 class="text-2xl font-semibold mb-3">SoftBank</h3>
-                <p class="text-gray-400 mb-4">
-                  A global technology investment company focused on the Information Revolution. 
-                  SoftBank invests in companies that are building the future.
-                </p>
-                <div class="text-sm text-gray-500">
-                  <p><strong>Focus Areas:</strong> Technology Investment, AI, Robotics</p>
-                  <p><strong>Key Initiatives:</strong> Vision Fund, ARM Holdings</p>
-                </div>
-              </div>
+            </div>
+            <h3 class="partner-name">SoftBank</h3>
+            <p class="partner-category">Investment & Technology</p>
+            <p class="partner-description">
+              Global technology investment firm focused on AI, robotics, 
+              and next-generation computing technologies that will shape the future.
+            </p>
+            <div class="partner-focus">
+              <span class="focus-tag">Vision Fund</span>
+              <span class="focus-tag">Robotics</span>
+              <span class="focus-tag">Innovation</span>
             </div>
           </div>
 
-          <!-- ARM -->
-          <div class="card">
-            <div class="flex items-start space-x-6">
-              <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+          <div class="partner-card">
+            <div class="partner-logo">
+              <div class="logo-placeholder">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                 </svg>
               </div>
-              <div>
-                <h3 class="text-2xl font-semibold mb-3">ARM</h3>
-                <p class="text-gray-400 mb-4">
-                  Designing the technology that defines the future of computing. 
-                  ARM's energy-efficient processor designs power billions of devices worldwide.
-                </p>
-                <div class="text-sm text-gray-500">
-                  <p><strong>Focus Areas:</strong> CPU Design, Mobile Computing, IoT</p>
-                  <p><strong>Key Products:</strong> ARM Cortex, Mali GPUs, Neoverse</p>
-                </div>
-              </div>
+            </div>
+            <h3 class="partner-name">ARM</h3>
+            <p class="partner-category">Semiconductor Design</p>
+            <p class="partner-description">
+              Leading provider of processor technology, designing the chips that 
+              power billions of devices worldwide, from smartphones to data centers.
+            </p>
+            <div class="partner-focus">
+              <span class="focus-tag">Processors</span>
+              <span class="focus-tag">IoT</span>
+              <span class="focus-tag">Efficiency</span>
             </div>
           </div>
 
-          <!-- Crystal Intelligence -->
-          <div class="card">
-            <div class="flex items-start space-x-6">
-              <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+          <div class="partner-card">
+            <div class="partner-logo">
+              <div class="logo-placeholder">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
                 </svg>
               </div>
-              <div>
-                <h3 class="text-2xl font-semibold mb-3">Crystal Intelligence</h3>
-                <p class="text-gray-400 mb-4">
-                  Specializing in advanced analytics and intelligent data processing solutions. 
-                  Crystal Intelligence helps organizations unlock insights from their data.
-                </p>
-                <div class="text-sm text-gray-500">
-                  <p><strong>Focus Areas:</strong> Data Analytics, Business Intelligence, AI</p>
-                  <p><strong>Key Services:</strong> Data Processing, Predictive Analytics</p>
-                </div>
-              </div>
+            </div>
+            <h3 class="partner-name">Crystal Intelligence</h3>
+            <p class="partner-category">Advanced Analytics</p>
+            <p class="partner-description">
+              Specialized in crystal-based computing and advanced data processing 
+              technologies that enable breakthrough performance in complex calculations.
+            </p>
+            <div class="partner-focus">
+              <span class="focus-tag">Crystal Computing</span>
+              <span class="focus-tag">Analytics</span>
+              <span class="focus-tag">Performance</span>
             </div>
           </div>
         </div>
@@ -114,85 +121,151 @@
     </section>
 
     <!-- Partnership Benefits -->
-    <section class="py-20 bg-gray-900/50">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-16">
-          <h2 class="text-4xl font-bold mb-4">
+    <section class="benefits-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
             <span class="gradient-text">Partnership Benefits</span>
           </h2>
-          <p class="text-xl text-gray-400 max-w-2xl mx-auto">
-            How our partnerships benefit you and your organization
+          <p class="section-description">
+            How our strategic partnerships create value for all stakeholders
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center">
-            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Latest Technology</h3>
-            <p class="text-gray-400">Access to cutting-edge innovations and research from industry leaders</p>
+            <h3 class="benefit-title">Innovation Acceleration</h3>
+            <p class="benefit-description">
+              Combining expertise and resources to accelerate breakthrough innovations 
+              in AI, computing, and emerging technologies.
+            </p>
           </div>
 
-          <div class="text-center">
-            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Global Reach</h3>
+            <p class="benefit-description">
+              Leveraging global networks and market presence to deliver solutions 
+              that scale across different regions and industries.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Proven Solutions</h3>
-            <p class="text-gray-400">Battle-tested technologies and methodologies from successful implementations</p>
+            <h3 class="benefit-title">Quality Assurance</h3>
+            <p class="benefit-description">
+              Maintaining the highest standards of quality and reliability through 
+              collaborative development and rigorous testing processes.
+            </p>
           </div>
 
-          <div class="text-center">
-            <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3">Expert Support</h3>
-            <p class="text-gray-400">Direct access to expertise and support from technology pioneers</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Disclaimer -->
-    <section class="py-12 bg-gray-800/50">
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto text-center">
-          <div class="bg-yellow-900/20 border border-yellow-500/30 rounded-lg p-6">
-            <h3 class="text-lg font-semibold text-yellow-400 mb-3">Important Notice</h3>
-            <p class="text-gray-300">
-              Stargate is an independent educational platform. While we reference publicly available 
-              information about these companies and their technologies, we are not an official 
-              representative or subsidiary of any of these organizations. All information is based 
-              on publicly available sources and is intended for educational purposes only.
+            <h3 class="benefit-title">Resource Optimization</h3>
+            <p class="benefit-description">
+              Optimizing resources and capabilities through strategic partnerships 
+              that maximize efficiency and minimize redundancy.
             </p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Partnership Process -->
+    <section class="process-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="gradient-text">Partnership Process</span>
+          </h2>
+          <p class="section-description">
+            How we establish and maintain successful strategic partnerships
+          </p>
+        </div>
+
+        <div class="process-timeline">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3 class="step-title">Initial Assessment</h3>
+              <p class="step-description">
+                We evaluate potential partners based on shared values, complementary 
+                capabilities, and alignment with our strategic objectives.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3 class="step-title">Collaboration Design</h3>
+              <p class="step-description">
+                Together, we design partnership frameworks that define roles, 
+                responsibilities, and expected outcomes for all parties.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3 class="step-title">Implementation</h3>
+              <p class="step-description">
+                We execute partnership agreements with clear milestones, 
+                regular checkpoints, and transparent communication channels.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3 class="step-title">Continuous Improvement</h3>
+              <p class="step-description">
+                We continuously monitor and optimize partnerships to ensure 
+                maximum value creation and long-term success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
-    <section class="py-20">
-      <div class="container mx-auto px-4 text-center">
-        <h2 class="text-4xl font-bold mb-6">
-          Learn More About Our Approach
-        </h2>
-        <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          Discover how we leverage partnerships and collaborations to bring you 
-          the most innovative technology solutions.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <RouterLink to="/about" class="btn-primary">
-            About Us
-          </RouterLink>
-          <RouterLink to="/services" class="btn-outline">
-            Our Services
-          </RouterLink>
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">
+            Interested in Partnership?
+          </h2>
+          <p class="cta-description">
+            Join us in shaping the future of technology through strategic collaboration.
+          </p>
+          <div class="cta-buttons">
+            <RouterLink to="/contact" class="btn-primary">
+              Become a Partner
+            </RouterLink>
+            <RouterLink to="/about" class="btn-outline">
+              Learn More
+            </RouterLink>
+          </div>
         </div>
       </div>
     </section>
@@ -200,5 +273,424 @@
 </template>
 
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
+// Component logic here
 </script>
+
+<style scoped>
+/* Hero Section */
+.hero-section {
+  position: relative;
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1f2937 50%, #0a0a0a 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #d1d5db;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Partners Overview */
+.partners-overview {
+  padding: 80px 0;
+  background: rgba(17, 24, 39, 0.5);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+}
+
+.partner-card {
+  background: rgba(31, 41, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid #374151;
+  border-radius: 16px;
+  padding: 40px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.partner-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.partner-card:hover::before {
+  transform: scaleX(1);
+}
+
+.partner-card:hover {
+  border-color: rgba(124, 58, 237, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px);
+}
+
+.partner-card.featured {
+  border-color: rgba(124, 58, 237, 0.3);
+  background: rgba(124, 58, 237, 0.05);
+}
+
+.partner-card.featured::before {
+  transform: scaleX(1);
+}
+
+.partner-logo {
+  margin-bottom: 24px;
+}
+
+.logo-placeholder {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.partner-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.partner-category {
+  color: #7c3aed;
+  font-weight: 500;
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.partner-description {
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.partner-focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.focus-tag {
+  background: rgba(124, 58, 237, 0.1);
+  color: #7c3aed;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 80px 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.benefit-card {
+  background: rgba(31, 41, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.benefit-card:hover {
+  border-color: rgba(124, 58, 237, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+}
+
+.benefit-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 24px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.benefit-description {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+/* Process Section */
+.process-section {
+  padding: 80px 0;
+  background: rgba(17, 24, 39, 0.5);
+}
+
+.process-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.process-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.process-step:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: 80px;
+  bottom: -48px;
+  width: 2px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+}
+
+.step-number {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.step-description {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.2) 0%, rgba(124, 58, 237, 0.2) 100%);
+}
+
+.cta-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.cta-description {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .partners-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .process-step {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+  }
+  
+  .partners-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .process-step {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  
+  .process-step:not(:last-child)::after {
+    display: none;
+  }
+  
+  .cta-buttons {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .partner-card,
+  .benefit-card {
+    padding: 24px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 80px 0;
+  }
+  
+  .partners-overview,
+  .benefits-section,
+  .process-section,
+  .cta-section {
+    padding: 60px 0;
+  }
+  
+  .partner-card {
+    padding: 20px;
+  }
+  
+  .logo-placeholder {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+</style>
