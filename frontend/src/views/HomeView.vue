@@ -16,20 +16,31 @@
         <div class="hero-text">
           <h1 class="hero-title">
             <span class="gradient-text">Stargate</span>
+            <span class="domain-suffix">.ci</span>
           </h1>
           <p class="hero-subtitle">
-            Your Gateway to the Future of Technology
+            Powered by Crystal Intelligence
           </p>
           <p class="hero-description">
-            Explore the cutting-edge world of Artificial Intelligence, Cloud Computing, and Big Data Analytics. 
-            Join us on a journey through innovation, where technology meets possibility.
+            The Stargate project represents a revolutionary collaboration between cutting-edge AI technology and advanced computing infrastructure. 
+            Through Crystal Intelligence's innovative approach, we're building the gateway to the future of artificial intelligence and cloud computing.
           </p>
+          <div class="project-highlight">
+            <div class="highlight-card">
+              <h3>Stargate Project</h3>
+              <p>Advanced AI infrastructure and cloud computing platform</p>
+            </div>
+            <div class="highlight-card">
+              <h3>Crystal Intelligence</h3>
+              <p>Pioneering AI research and development company</p>
+            </div>
+          </div>
           <div class="hero-buttons">
-            <RouterLink to="/services" class="btn-primary">
-              Explore Services
+            <RouterLink to="/about" class="btn-primary">
+              About Stargate
             </RouterLink>
-            <RouterLink to="/about" class="btn-outline">
-              Learn More
+            <RouterLink to="/partners" class="btn-outline">
+              Our Partners
             </RouterLink>
           </div>
         </div>
@@ -293,6 +304,25 @@
   font-weight: 700;
   margin-bottom: 24px;
   line-height: 1.1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease-in-out infinite;
+}
+
+.domain-suffix {
+  color: #8b5cf6;
+  font-size: 3rem;
+  font-weight: 600;
+  opacity: 0.8;
 }
 
 .hero-subtitle {
@@ -310,6 +340,46 @@
   margin-left: auto;
   margin-right: auto;
   line-height: 1.7;
+}
+
+.project-highlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 48px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(139, 92, 246, 0.3);
+  box-shadow: 0 20px 40px rgba(139, 92, 246, 0.1);
+}
+
+.highlight-card h3 {
+  color: #8b5cf6;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.highlight-card p {
+  color: #d1d5db;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .hero-buttons {
@@ -557,6 +627,28 @@
   }
 }
 
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .domain-suffix {
+    font-size: 2rem;
+  }
+  
+  .project-highlight {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 32px 0;
+  }
+  
+  .highlight-card {
+    padding: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-title {
     font-size: 6rem;
@@ -586,6 +678,18 @@
   }
   90% {
     transform: translateX(-50%) translateY(-2px);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 </style>
